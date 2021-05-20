@@ -1,6 +1,10 @@
 import 'package:primeiro_app/primeiro_app.dart' as primeiro_app;
 import 'dart:io';
 
+/*
+* Verifica através de número solicitado ao usuário, se o mesmo é múltiplo de 2
+*/
+
 void main(List<String> arguments) {
   print('Digite um número para verificar se ele é múltiplo por 2: ');
   var entradaNumero = stdin.readLineSync();
@@ -19,6 +23,3 @@ void main(List<String> arguments) {
 
 }
 
-
-// solicitar número para verificar se ele é divisível por 2
-// 
