@@ -15,11 +15,5 @@ void main(List<String> arguments) {
   } else {
     print('O número que você digitou: $numero, NÃO é múltiplo por 2');
   }
-    
-
-
-
-
-
 }
 
