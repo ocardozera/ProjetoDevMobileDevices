@@ -1,7 +1,7 @@
 import 'dart:io';
 
 /*
-* Verifica através de número solicitado ao usuário, se o mesmo é múltiplo de 2
+* Funções
 */
 
 void main(List<String> arguments) {
@@ -13,9 +13,6 @@ void main(List<String> arguments) {
 
   printaOpcaoStr(opcao);
   solicitarNotas(opcao);
-
-
-  
   
 }
 
