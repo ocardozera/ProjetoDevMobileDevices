@@ -1,18 +1,13 @@
-import 'package:primeiro_app/primeiro_app.dart' as primeiro_app;
 import 'dart:io';
 
 class Funcionario {
   String nome;
   double salario;
-
-  void add(String s) {}
 }
 
 void main(List<String> arguments) {
-  var listaFuncionario = List<Funcionario>();
-  var funcionario = Funcionario();
-
-  listaFuncionario.add(funcionario);
+  var listaFuncionario = <Funcionario>[];
+  
 
 
 
@@ -31,10 +26,20 @@ void main(List<String> arguments) {
     var entradaSalario = stdin.readLineSync();
     var salario = double.parse(entradaSalario);
 
-    listaFuncionario[i].add(funcionario.nome = nomeFuncionario);
-    listaFuncionario[i].add(funcionario.salario = salario);
+    var funcionario = Funcionario();
+
+    funcionario.nome = nomeFuncionario;
+    funcionario.salario = salario;
+
+    listaFuncionario.add(funcionario);
+
   }
 
+  /* for (var i=0; i < listaFuncionario.length; i++) {
+    var nomeFunc = listaFuncionario[i];
+
+    
+  } */
 
 
   print(listaFuncionario);

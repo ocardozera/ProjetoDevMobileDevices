@@ -1,5 +1,4 @@
-import 'package:primeiro_app/primeiro_app.dart' as primeiro_app;
-import 'dart:io';
+
 
 void main(List<String> arguments) {
 
@@ -12,7 +11,7 @@ void main(List<String> arguments) {
   var qtdElementos = nomes.length;
   print(qtdElementos);
 
-  var i = 0;
+  //var i = 0;
   //while (i < qtdElementos ) {
   //  print(nomes[i]);
   //  i++;

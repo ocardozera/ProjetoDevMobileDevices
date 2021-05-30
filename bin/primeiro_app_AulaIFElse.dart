@@ -1,4 +1,3 @@
-import 'package:primeiro_app/primeiro_app.dart' as primeiro_app;
 import 'dart:io';
 
 /*
